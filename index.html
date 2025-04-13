@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Szymon Skrzypek - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/993/993725.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Elementy tła z wykresami -->
+    <div class="chart-element chart-element-1"></div>
+    <div class="chart-element chart-element-2"></div>
+    <div class="chart-element chart-element-3"></div>
+    <div class="chart-element chart-element-4"></div>
+    
+    <header>
+        <div class="header-container">
+            <nav>
+                <ul>
+                    <li><a href="#about"><i class="fas fa-user"></i> O mnie</a></li>
+                    <li><a href="#social"><i class="fas fa-share-alt"></i> Kontakt</a></li>
+                    <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projekty</a></li>
+                    <li><a href="#certificates"><i class="fas fa-certificate"></i> Certyfikaty</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <img src="images/photo.jpg" alt="Moje zdjęcie">
+        <div class="about-content">
+            <h2>O mnie</h2>
+            <p>Cześć, nazywam się Szymon. Jestem początkującym specjalistą z umiejętnościami analitycznymi i technicznymi, otwartym na różnorodne role 
+                związane z danymi, technologią oraz 
+                optymalizacją procesów. Posiadam podstawowe doświadczenie w pracy z danymi, automatyzacji procesów oraz tworzeniu raportów i wizualizacji, 
+                co pozwala mi wspierać podejmowanie świadomych decyzji biznesowych.
+            </p>
+            <br>
+            <p>Charakteryzuję się zdolnością do szybkiego uczenia się, efektywną pracą zespołową oraz analitycznym 
+                podejściem do rozwiązywania problemów. Jestem gotowy na wyzwania w obszarach takich jak 
+                analiza danych, raportowanie, optymalizacja procesów i wsparcie technologiczne, z pełnym zaangażowaniem dążąc do osiągania celów organizacji.
+            </p>
+            <br>
+            <h3>Umiejętności</h3>
+            <ul class="skills">
+                <li><i class="fab fa-python"></i> Python (Pandas, NumPy, Matplotlib)</li>
+                <li><i class="fas fa-table"></i> Microsoft Excel</li>
+                <li><i class="fas fa-chart-bar"></i> Power BI</li>
+                <li><i class="fas fa-database"></i> SQL</li>
+                <li><i class="fa-solid fa-atom"></i> Deep Learing</li>
+                <li><i class="fa-solid fa-camera"></i> Computer Vision</li>
+                <li><i class="fas fa-brain"></i> Uczenie maszynowe</li>
+                <li><i class="fas fa-tasks"></i> Wielozadaniowość</li>
+                <li><i class="fas fa-chart-line"></i> Analiza statystyczna</li>
+                <li><i class="fas fa-puzzle-piece"></i> Rozwiązywanie problemów</li>
+            </ul>
+        </div>
+    </section>
+    <section id="social">
+        <h2>Kontakt</h2>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/szymon-skrzypek-b18095329/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/szymons3234" target="_blank">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+            </a>
+            <a href="mailto:szymons3234@gmail.com" target="_blank">
+                <i class="fa-solid fa-envelope"></i>
+                <span>szymons3234@gmail.com</span>
+            </a>
+            <a href="https://www.kaggle.com/szymonskrzypek" target="_blank">
+                <i class="fa-brands fa-kaggle"></i>
+                <span>Kaggle</span>
+            </a>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projekty</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="images/projekt1.png" alt="Projekt 1">
+                <div class="content">
+                    <h3>PetClassifier - Klasyfikacja Ras Psów i Kotów</h3>
+                    <p>🐾 PetClassifier to projekt oparty na Machine Learning, który automatycznie sortuje zdjęcia psów i kotów do odpowiednich folderów 📂, trenuje model konwolucyjnej sieci neuronowej (CNN) do klasyfikacji ras 🧠 oraz umożliwia testowanie nowych zdjęć w czasie rzeczywistym 📷. Dzięki połączeniu uczenia maszynowego i rozpoznawania obrazów, PetClassifier skutecznie organizuje zdjęcia zwierząt domowych i pomaga szybko rozpoznać ich rasę.</p>
+                    <div class="tech-stack">
+                        <span>TensorFlow</span>
+                        <span>Keras</span>
+                        <span>Matplotlib</span>
+                        <span>NumPy</span>
+                        <span>Pandas</span>
+                        <span>OpenCV</span>
+                        <span>FastAPI</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <img src="images/projekt2.png" alt="Projekt 2">
+                <div class="content">
+                    <h3>Fake News Detection Model</h3>
+                    <p>🤖 Model uczenia maszynowego do wykrywania fake newsów, zbudowany przy użyciu TensorFlow 🧠.
+                        📡 Zawiera model ML, serwer API 🌐 oraz prosty interfejs użytkownika 💻, który 
+                        umożliwia przewidywanie na podstawie wprowadzonych tekstów ✍️📰.</p>
+                    <div class="tech-stack">
+                        <span>TensorFlow</span>
+                        <span>Keras</span>
+                        <span>Matplotlib</span>
+                        <span>NumPy</span>
+                        <span>Pandas</span>
+                        <span>NLTK</span>
+                        <span>FastAPI</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <img src="images/projekt3.png" alt="Projekt 3">
+                <div class="content">
+                    <h3>🏀 Basketball Players Classifier</h3>
+                    <p>🏀 Basketball-Players-Classifier to projekt zajmujący się klasyfikacją twarzy na podstawie 
+                        wcześniej wyciętych obrazów pięciu różnych zawodników koszykówki. Wykorzystuje popularne algorytmy uczenia maszynowego do rozpoznawania i przypisywania twarzy do konkretnego gracza. Projekt pokazuje praktyczne zastosowanie klasyfikacji obrazów w kontekście identyfikacji osób na podstawie zdjęć twarzy. 🔍📊</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>scikit-learn</span>
+                        <span>OpenCV</span>
+                        <span>Pandas</span>
+                        <span>Matplotlib</span>
+                        <span>NumPy</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <img src="images/projekt4.png" alt="Projekt 4">
+                <div class="content">
+                    <h3>🏡 American House Price Prediction</h3>
+                    <p>🏡 American House Price Prediction to projekt, którego celem jest przewidywanie cen domów w USA na podstawie danych historycznych. Wykorzystuje popularne techniki analizy danych i algorytmy uczenia maszynowego 
+                        do tworzenia modeli regresyjnych, które umożliwiają dokładne prognozowanie wartości nieruchomości. 📈🔍</p>
+                    <div class="tech-stack">
+                        <span>Scikit-learn</span>
+                        <span>Pandas</span>
+                        <span>Matplotlib</span>
+                        <span>NumPy</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <img src="images/projekt5.png" alt="Projekt 5">
+                <div class="content">
+                    <h3>🔐 AVR & Python Gesture-Based Authentication System</h3>
+                    <p>🔐 AVR & Python Gesture-Based Authentication System to projekt integrujący mikrokontroler AVR z systemem rozpoznawania gestów w Pythonie, tworząc nowoczesny i bezpieczny system uwierzytelniania. Całość składa się z klawiatury, wyświetlacza LCD, serwomechanizmu
+                         oraz skryptu Pythona, który analizuje gesty dłoni i komunikuje się z mikrokontrolerem za pomocą interfejsu UART. 🤝💡</p>
+                    <div class="tech-stack">
+                        <span>OpenCV</span>
+                        <span>Tensorflow</span>
+                        <span>Keras</span>
+                        <span>AVR</span>
+                        <span>Arduino</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="images/projekt6.png" alt="Projekt 6">
+                <div class="content">
+                    <h3>🍫 Chocolate Business Dashboard</h3>
+                    <p>🍫 Chocolate Business Dashboard to projekt, który zawiera interaktywny dashboard analityczny 
+                        stworzony w Power BI, dedykowany branży czekoladowej. Umożliwia on analizę sprzedaży, śledzenie trendów rynkowych oraz monitorowanie kluczowych wskaźników biznesowych, wspierając podejmowanie strategicznych decyzji. 📊📈</p>
+                    <div class="tech-stack">
+                        <span>PowerBI</span>
+                        <span>Business Intelligence</span>
+                        <span>Wizualizacja Danych</span>
+                        <span>Analiza Danych</span>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+   
+
+    <section id="certificates">
+        <h2>Certyfikaty</h2>
+        <ul>
+            <li>
+                <i class="fas fa-award"></i>
+                <h3>Associate Data Scientist</h3>
+                <p>Certyfikat potwierdzający umiejętności w zakresie analizy danych i tworzenia modeli predykcyjnych.</p>
+            </li>
+            <li>
+                <i class="fas fa-chart-pie"></i>
+                <h3>Associate Data Analyst</h3>
+                <p>Certyfikat potwierdzający umiejętności w zakresie analizy i wizualizacji danych.</p>
+            </li>
+            <li>
+                <i class="fab fa-microsoft"></i>
+                <h3>Azure Fundamentals</h3>
+                <p>Podstawowa wiedza na temat usług chmurowych Microsoft Azure.</p>
+            </li>
+            <li>
+                <i class="fas fa-chart-bar"></i>
+                <h3>Power BI Fundamentals</h3>
+                <p>Umiejętności w zakresie tworzenia raportów i dashboardów w Power BI.</p>
+            </li>
+            <li>
+                <i class="fas fa-robot"></i>
+                <h3>Machine Learning Scientist in Python</h3>
+                <p>Zaawansowane umiejętności w zakresie uczenia maszynowego z wykorzystaniem Pythona.</p>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p><i class="fas fa-envelope"></i> Email: szymons3234@gmail.com</p>
+            <p>&copy; 2025 Portfolio Szymon Skrzypek</p>
+        </div>
+    </footer>
+
+    <script>
+        // Efekt zmiany nagłówka przy przewijaniu
+        const header = document.querySelector('header');
+        const headerContainer = document.querySelector('.header-container');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.style.background = 'linear-gradient(-45deg, #0d47a1, #083378, #1565c0, #083378)';
+                header.style.backgroundSize = '400% 400%';
+                header.style.padding = '8px 0';
+                header.style.boxShadow = '0 4px 15px rgba(0, 0, 0, 0.3)';
+                headerContainer.style.transform = 'scale(0.97)';
+            } else {
+                header.style.background = 'linear-gradient(-45deg, #1a73e8, #0d47a1, #4285f4, #0d47a1)';
+                header.style.backgroundSize = '400% 400%';
+                header.style.padding = '12px 0';
+                header.style.boxShadow = '0 4px 15px rgba(0, 0, 0, 0.2)';
+                headerContainer.style.transform = 'scale(1)';
+            }
+        });
+        
+        // Dodanie klasy active do aktywnego elementu menu
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('nav ul li a');
+            
+            // Funkcja do sprawdzania, która sekcja jest aktualnie widoczna
+            const checkActiveSection = () => {
+                const scrollPosition = window.scrollY;
+                
+                document.querySelectorAll('section').forEach(section => {
+                    const sectionTop = section.offsetTop - 100;
+                    const sectionHeight = section.offsetHeight;
+                    const sectionId = section.getAttribute('id');
+                    
+                    if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                        navLinks.forEach(link => {
+                            link.parentElement.classList.remove('active');
+                            if (link.getAttribute('href') === `#${sectionId}`) {
+                                link.parentElement.classList.add('active');
+                            }
+                        });
+                    }
+                });
+            };
+            
+            // Wywołanie funkcji przy przewijaniu
+            window.addEventListener('scroll', checkActiveSection);
+            
+            // Wywołanie funkcji przy załadowaniu strony
+            checkActiveSection();
+        });
+
+        // Animacja sekcji przy przewijaniu
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = document.querySelectorAll('section');
+            const options = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('fade-in');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, options);
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+            
+            // Dodatkowa animacja dla elementów umiejętności
+            const skills = document.querySelectorAll('.skills li');
+            skills.forEach((skill, index) => {
+                skill.style.animationDelay = `${index * 0.1}s`;
+            });
+        });
+
+        // Symulacja wykresu danych (można zastąpić rzeczywistym wykresem)
+        const createDataVisualization = () => {
+            // Tutaj można dodać kod do generowania rzeczywistych wykresów
+            console.log("Wizualizacja danych załadowana");
+        };
+
+        // Wywołanie funkcji po załadowaniu strony
+        window.onload = createDataVisualization;
+    </script>
+</body>
+</html>
