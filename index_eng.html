@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Szymon Skrzypek - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/993/993725.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Chart background elements -->
+    <div class="chart-element chart-element-1"></div>
+    <div class="chart-element chart-element-2"></div>
+    <div class="chart-element chart-element-3"></div>
+    <div class="chart-element chart-element-4"></div>
+    
+    <header>
+        <div class="header-container">
+            <nav>
+                <ul>
+                    <li><a href="#about"><i class="fas fa-user"></i> About Me</a></li>
+                    <li><a href="#social"><i class="fas fa-share-alt"></i> Contact</a></li>
+                    <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                    <li><a href="#plans"><i class="fas fa-list"></i> Goals & Plans</a></li>
+                    <li><a href="#certificates"><i class="fas fa-certificate"></i> Certificates</a></li>
+                    <li><a href="index.html">
+                        <img src="https://flagcdn.com/w20/pl.png" alt="PL flag" style="width: 20px; height: auto; vertical-align: middle; margin-right: 5px;">
+                        PL
+                      </a></li>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <img src="images/photo.jpg" alt="My Photo">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>Hi, I'm Szymon. I'm an aspiring specialist with a strong analytical and technical mindset, open to various roles related to data, 
+            machine learning, and process optimization. I have experience working with data – from analysis and visualization to automation and 
+            creating simple tools that support business decision-making.</p>
+            <br>
+            <p>I’m a fast learner, effective team player, and I enjoy tackling complex problems that require logical and analytical thinking. 
+            My interests include data analysis, reporting, ML model development, and their deployment in real-world environments.</p>
+            <br>
+            <p>I am an active member of the Data&AI and Supply Chain Analytics student groups, where I develop skills in data analysis, 
+            programming, modeling, and team-based project work. Currently, I’m focused on building my portfolio and improving my skillset.</p>
+            <br>
+            <h3>Technology Stack</h3>
+            <ul class="tech-stack-list">
+                <li>🧠 <strong>Machine Learning:</strong> scikit-learn, TensorFlow, PyTorch (in progress)</li>
+                <li>🧼 <strong>Data Wrangling:</strong> Pandas, NumPy, SQL</li>
+                <li>📊 <strong>Visualization:</strong> Matplotlib, Power BI</li>
+                <li>🌐 <strong>Deployment:</strong> FastAPI, Flask, GitHub Pages</li>
+                <li>🧰 <strong>Tools:</strong> Git, Docker (planned), VS Code, Linux</li>
+            </ul>
+            <br>
+            <h3>Skills</h3>
+            <ul class="skills">
+                <li><i class="fab fa-python"></i> Python</li>
+                <li><i class="fas fa-table"></i> Microsoft Excel</li>
+                <li><i class="fa-solid fa-atom"></i> Deep Learning</li>
+                <li><i class="fa-solid fa-camera"></i> Computer Vision</li>
+                <li><i class="fas fa-brain"></i> Machine Learning</li>
+                <li><i class="fas fa-tasks"></i> Multitasking</li>
+                <li><i class="fas fa-chart-line"></i> Statistical Analysis</li>
+                <li><i class="fas fa-puzzle-piece"></i> Problem Solving</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="social">
+        <h2>Contact</h2>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/szymon-skrzypek-b18095329/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/szymons3234" target="_blank">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+            </a>
+            <a href="mailto:szymons3234@gmail.com" target="_blank">
+                <i class="fa-solid fa-envelope"></i>
+                <span>szymons3234@gmail.com</span>
+            </a>
+            <a href="https://www.kaggle.com/szymonskrzypek" target="_blank">
+                <i class="fa-brands fa-kaggle"></i>
+                <span>Kaggle</span>
+            </a>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <!-- Keep the project structure and tech stack, only translate the descriptions -->
+            <!-- Each project is translated individually -->
+            <div class="project-card">
+                <img src="images/projekt1.png" alt="Project 1">
+                <div class="content">
+                    <h3>PetClassifier - Dog & Cat Breed Classification</h3>
+                    <p>🐾 PetClassifier is a Machine Learning-based project that automatically sorts dog and cat images into appropriate folders 📂, trains a convolutional neural network (CNN) model for breed classification 🧠, and allows real-time image testing 📷. It effectively organizes pet images and helps quickly identify their breed.</p>
+                    <div class="tech-stack">
+                        <span>TensorFlow</span>
+                        <span>Keras</span>
+                        <span>Matplotlib</span>
+                        <span>NumPy</span>
+                        <span>Pandas</span>
+                        <span>OpenCV</span>
+                        <span>FastAPI</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat this translation for each project card description -->
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="images/projekt2.png" alt="Project 2">
+                <div class="content">
+                    <h3>Fake News Detection Model</h3>
+                    <p>🤖 A machine learning model for detecting fake news, built using TensorFlow 🧠. 📡 Includes an ML model, API server 🌐, and a simple user interface 💻 for predicting based on input text ✍️📰.</p>
+                    <div class="tech-stack">
+                        <span>TensorFlow</span>
+                        <span>Keras</span>
+                        <span>Matplotlib</span>
+                        <span>NumPy</span>
+                        <span>Pandas</span>
+                        <span>NLTK</span>
+                        <span>FastAPI</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <img src="images/projekt3.png" alt="Project 3">
+                <div class="content">
+                    <h3>🏀 Basketball Players Classifier</h3>
+                    <p>🏀 A project that classifies faces of five different basketball players based on pre-cropped images. Uses ML algorithms to recognize and assign faces to the correct player. Demonstrates the practical use of image classification in identifying individuals. 🔍📊</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>scikit-learn</span>
+                        <span>OpenCV</span>
+                        <span>Pandas</span>
+                        <span>Matplotlib</span>
+                        <span>NumPy</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card">
+                <img src="images/projekt4.png" alt="Project 4">
+                <div class="content">
+                    <h3>🏡 American House Price Prediction</h3>
+                    <p>🏡 A project aiming to predict house prices in the US based on historical data. Uses popular data analysis and ML algorithms to create regression models for accurate property value predictions. 📈🔍</p>
+                    <div class="tech-stack">
+                        <span>Scikit-learn</span>
+                        <span>Pandas</span>
+                        <span>Matplotlib</span>
+                        <span>NumPy</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card">
+                <img src="images/projekt5.png" alt="Project 5">
+                <div class="content">
+                    <h3>🔐 AVR & Python Gesture-Based Authentication System</h3>
+                    <p>🔐 A project integrating AVR microcontroller with a gesture recognition system in Python, forming a modern and secure authentication system. Combines a keypad, LCD, servo motor, and Python script analyzing hand gestures, communicating with the microcontroller via UART. 🤝💡</p>
+                    <div class="tech-stack">
+                        <span>OpenCV</span>
+                        <span>Tensorflow</span>
+                        <span>Keras</span>
+                        <span>AVR</span>
+                        <span>Arduino</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="project-card">
+                <img src="images/projekt6.png" alt="Project 6">
+                <div class="content">
+                    <h3>🍫 Chocolate Business Dashboard</h3>
+                    <p>🍫 An interactive analytical dashboard built in Power BI, dedicated to the chocolate industry. Allows analysis of sales, market trends, and key business metrics to support strategic decision-making. 📊📈</p>
+                    <div class="tech-stack">
+                        <span>Power BI</span>
+                        <span>Business Intelligence</span>
+                        <span>Data Visualization</span>
+                        <span>Data Analysis</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="plans">
+        <h2>Goals and Plans</h2>
+        <ul>
+            <li>Gain experience in the Data Science / Machine Learning industry</li>
+            <li>Apply for internships and junior roles at ML/AI companies to gain hands-on experience</li>
+            <li>Develop technical skills</li>
+            <li>Improve skills in Machine Learning, Deep Learning, NLP, and tools like Python, TensorFlow, PyTorch, and Scikit-learn</li>
+            <li>Build a project portfolio</li>
+            <li>Consistently create ML projects (classification, image analysis, NLP) and publish them on GitHub</li>
+            <li>Specialize in a Data Science domain</li>
+            <li>Explore chosen specialization (e.g., NLP, Computer Vision) and complete advanced projects in that area</li>
+            <li>Increase visibility in the industry</li>
+            <li>Participate in events, publish articles/presentations, and stay active on LinkedIn, Kaggle, and Medium</li>
+        </ul>
+        <br>
+        <a href="https://www.notion.so/8-TYGODNIOWY-PLAN-NAUKI-1a5b7201b67c808e9cb4f9033b257c78#1dab7201b67c80069859cc9b79f7cb0b">Check out my learning plan</a>
+    </section>
+
+    <section id="certificates">
+        <h2>Certificates</h2>
+        <ul>
+            <li>
+                <i class="fas fa-award"></i>
+                <h3>Associate Data Scientist</h3>
+                <p>Certificate confirming skills in data analysis and predictive model development.</p>
+            </li>
+            <li>
+                <i class="fas fa-chart-pie"></i>
+                <h3>Associate Data Analyst</h3>
+                <p>Certificate confirming skills in data analysis and visualization.</p>
+            </li>
+            <li>
+                <i class="fab fa-microsoft"></i>
+                <h3>Azure Fundamentals</h3>
+                <p>Basic knowledge of Microsoft Azure cloud services.</p>
+            </li>
+            <li>
+                <i class="fas fa-chart-bar"></i>
+                <h3>Power BI Fundamentals</h3>
+                <p>Skills in creating reports and dashboards in Power BI.</p>
+            </li>
+            <li>
+                <i class="fas fa-robot"></i>
+                <h3>Machine Learning Scientist in Python</h3>
+                <p>Advanced skills in machine learning using Python.</p>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p><i class="fas fa-envelope"></i> Email: szymons3234@gmail.com</p>
+            <p>&copy; 2025 Szymon Skrzypek Portfolio</p>
+        </div>
+    </footer>
+
+    <!-- Script section remains the same as it's already in English -->
+</body>
+</html>
